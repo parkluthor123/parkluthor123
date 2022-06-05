@@ -17,7 +17,7 @@
   <br/>
   - 👋 Olá meu nome é Leandro <br/>
   - 👀 Eu sou Desenvolvedor Fullstack, gosto muito de tecnologia <br/>
-  - 🌱 Atualmente estou focando em NodeJs mas gosto muito de trabalhar com Laravel... <br/>
+  - 🌱 Atualmente estou estudando em NodeJs mas costumo trabalhar com o Laravel as suas demais versões... <br/>
   <br/>
   <div> 
   <a href="https://www.instagram.com/luthor_momo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
