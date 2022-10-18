@@ -13,7 +13,9 @@
   <img align="center" alt="Park-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg">
   <img align="center" alt="Park-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
   <!-- <img align="right" alt="Park-pic" height="150" style="border-radius:50px;" src="https://share-cdn.picrew.me/shareImg/org/202204/338224_ZmFQdwsC.png"> -->
-  <img align="right" alt="Park-pic" height="150" style="border-radius:50px;" src="https://leandro-pena.vercel.app/api/endpoint/uploads/blog/profilepic.webp">
+  <div style="margin-top: 50px;">
+    <img align="right" alt="Park-pic" height="150" style="border-radius:50px;" src="https://leandro-pena.vercel.app/api/endpoint/uploads/blog/profilepic.webp">
+  </div>
 </div></a>
   <br/>
   - 👋 Olá meu nome é Leandro <br/>
