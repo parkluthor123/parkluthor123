@@ -26,3 +26,8 @@
   <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-pena-45721b15a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
 </div>
+<div style="display: inline-block"><br>
+  <div>
+    <img align="right" alt="snake_commits" style="border-radius:50px;" src="https://github.com/parkluthor123/parkluthor123/blob/output/github-contribution-grid-snake.svg">
+  </div>
+</div>
