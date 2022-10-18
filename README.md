@@ -28,6 +28,6 @@
 </div>
 <div style="display: inline-block; width: 100%"><br>
   <div style="max-width: 880px; width: 100%; margin: 0 auto;">
-    <img alt="snake_commits" align="center" style="border-radius:50px;" src="https://github.com/parkluthor123/parkluthor123/blob/output/github-contribution-grid-snake.svg">
+    <img alt="snake_commits" align="left" style="border-radius:50px;" src="https://github.com/parkluthor123/parkluthor123/blob/output/github-contribution-grid-snake.svg">
   </div>
 </div>
