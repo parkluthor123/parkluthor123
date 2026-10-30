@@ -1,54 +1,34 @@
 <div align="center">
-  <h1>Olá, eu sou Leandro Gonçalves Pena 👋</h1>
-  <p><strong>Desenvolvedor full-stack focado em produtos web, APIs e experiências digitais bem estruturadas.</strong></p>
+  <img src="./assets/cyberpunk-banner.svg" alt="Banner cyberpunk em pixel art" width="100%">
+</div>
+
+<div align="center">
+  <h1>Leandro Gonçalves Pena</h1>
+  <p><strong>Full-stack developer · interfaces, APIs e experiências digitais</strong></p>
   <p>
-    <a href="https://leandro-pena.vercel.app"><img src="https://img.shields.io/badge/Portfólio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"></a>
-    <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-pena-45721b15a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="mailto:pena.leko14@gmail.com"><img src="https://img.shields.io/badge/Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+    <a href="https://leandro-pena.vercel.app"><img src="https://img.shields.io/badge/Portfólio-00F0FF?style=for-the-badge&logo=vercel&logoColor=07111F" alt="Portfólio"></a>
+    <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-pena-45721b15a"><img src="https://img.shields.io/badge/LinkedIn-FF2BD6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="mailto:pena.leko14@gmail.com"><img src="https://img.shields.io/badge/Contato-7B61FF?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
   </p>
 </div>
 
 ## Sobre mim
 
-Construo aplicações que conectam interfaces, regras de negócio e serviços de backend. Minha experiência pública reúne dashboards, e-commerces, APIs, autenticação, integrações em tempo real e ferramentas web — sempre com atenção à clareza do código e à experiência de quem usa o produto.
+Desenvolvedor full-stack que transforma ideias em produtos web claros, funcionais e bem estruturados. Trabalho na interseção entre interfaces, regras de negócio e serviços de backend, com foco atual em **TypeScript**, arquitetura de aplicações e experiências digitais.
 
-Atualmente, venho aprofundando meu trabalho com **TypeScript**, arquitetura de aplicações e integrações entre dados, serviços e experiências multimídia.
-
-## Stack em evidência
-
-As tecnologias abaixo aparecem com frequência nos meus projetos e repositórios públicos:
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,php,laravel,postgres,prisma,tailwind,html,css,cpp,cmake,python,bash,docker,git&perline=9" alt="Tecnologias: TypeScript, JavaScript, React, Next.js, Node.js, PHP, Laravel, PostgreSQL, Prisma, Tailwind CSS, HTML, CSS, C++, CMake, Python, Bash, Docker e Git">
-</p>
-
-## Projetos em destaque
-
-| Projeto | O que demonstra |
-| --- | --- |
-| [**Commerce Vercel**](https://github.com/parkluthor123/commerce-vercel) | E-commerce em **Next.js/TypeScript**, estruturado como monorepo e preparado para integração com diferentes provedores. |
-| [**React WhatsApp Front**](https://github.com/parkluthor123/react-whatsapp-front) | Interface em **React + TypeScript**, com comunicação em tempo real via Socket.IO e consumo de APIs. |
-| [**Jornada de Trabalho**](https://github.com/parkluthor123/jornada-trabalho-front) · [API](https://github.com/parkluthor123/jornada-trabalho-back) | Aplicação full-stack com **React, Material UI, Express, Prisma e TypeScript** para gestão de jornadas. |
-| [**Sistema Embarcadores**](https://github.com/parkluthor123/sistema-embarcadores) | Sistema web em **Laravel/PHP**, com área administrativa, persistência de dados e execução local via Docker/Sail. |
-| [**Projeto Moments**](https://github.com/parkluthor123/projeto-moments-by-park-luthor) | Aplicação em **Angular/TypeScript** para publicação e interação com imagens. |
-
-## Como trabalho
-
-- Transformo requisitos de produto em interfaces e APIs consistentes.
-- Organizo aplicações por responsabilidades, favorecendo manutenção e evolução.
-- Exploro novas ferramentas na prática, criando projetos pequenos e sistemas completos.
-
-## GitHub em números
+## Tecnologias
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=parkluthor123&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkluthor123&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Linguagens mais utilizadas">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,php,laravel,postgres,prisma,tailwind,html,css,cpp,cmake,python,bash,docker,git&perline=9" alt="TypeScript, JavaScript, React, Next.js, Node.js, PHP, Laravel, PostgreSQL, Prisma, Tailwind CSS, HTML, CSS, C++, CMake, Python, Bash, Docker e Git">
+</div>
+
+<br>
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=parkluthor123&show_icons=true&hide_border=true&theme=transparent&title_color=00F0FF&icon_color=FF2BD6&text_color=D8E7FF&bg_color=07111F" alt="Estatísticas do GitHub">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkluthor123&layout=compact&hide_border=true&langs_count=8&title_color=00F0FF&text_color=D8E7FF&bg_color=07111F" alt="Linguagens mais utilizadas">
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=parkluthor123&hide_border=true&theme=transparent" alt="Sequência de contribuições">
-</div>
-
-<div align="center">
-  <sub>Projetos, estudos e experimentos: <a href="https://github.com/parkluthor123?tab=repositories">explore meus repositórios</a>.</sub>
+  <sub>Code, creativity &amp; neon energy.</sub>
 </div>
