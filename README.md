@@ -1,33 +1,54 @@
 <div align="center">
-  <a href="https://github.com/parkluthor123">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=parkluthor123&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkluthor123&layout=compact&langs_count=7&theme=dracula"/>
+  <h1>Olá, eu sou Leandro Gonçalves Pena 👋</h1>
+  <p><strong>Desenvolvedor full-stack focado em produtos web, APIs e experiências digitais bem estruturadas.</strong></p>
+  <p>
+    <a href="https://leandro-pena.vercel.app"><img src="https://img.shields.io/badge/Portfólio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"></a>
+    <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-pena-45721b15a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="mailto:pena.leko14@gmail.com"><img src="https://img.shields.io/badge/Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  </p>
 </div>
-  
-<div style="display: inline-block"><br>
-  <img align="center" alt="Park-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Park-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Park-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Park-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Park-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Park-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg">
-  <img align="center" alt="Park-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <!-- <img align="right" alt="Park-pic" height="150" style="border-radius:50px;" src="https://share-cdn.picrew.me/shareImg/org/202204/338224_ZmFQdwsC.png"> -->
-  <img align="right" alt="Park-pic" height="150" style="border-radius:50px;" src="https://leandro-pena.vercel.app/api/endpoint/uploads/blog/profilepic.webp">
-</div></a>
-  <br/>
-  - 👋 Olá meu nome é Leandro <br/>
-  - 👀 Eu sou Desenvolvedor Fullstack, gosto muito de tecnologia <br/>
-  - 🌱 Atualmente estou estudando em NodeJs mas costumo trabalhar com o Laravel as suas demais versões... <br/>
-  <br/>
-  <div> 
-  <a href="https://www.instagram.com/luthor_momo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:pena.leko14@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-pena-45721b15a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- 
+
+## Sobre mim
+
+Construo aplicações que conectam interfaces, regras de negócio e serviços de backend. Minha experiência pública reúne dashboards, e-commerces, APIs, autenticação, integrações em tempo real e ferramentas web — sempre com atenção à clareza do código e à experiência de quem usa o produto.
+
+Atualmente, venho aprofundando meu trabalho com **TypeScript**, arquitetura de aplicações e integrações entre dados, serviços e experiências multimídia.
+
+## Stack em evidência
+
+As tecnologias abaixo aparecem com frequência nos meus projetos e repositórios públicos:
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,php,laravel,postgres,prisma,tailwind,html,css,cpp,cmake,python,bash,docker,git&perline=9" alt="Tecnologias: TypeScript, JavaScript, React, Next.js, Node.js, PHP, Laravel, PostgreSQL, Prisma, Tailwind CSS, HTML, CSS, C++, CMake, Python, Bash, Docker e Git">
+</p>
+
+## Projetos em destaque
+
+| Projeto | O que demonstra |
+| --- | --- |
+| [**Commerce Vercel**](https://github.com/parkluthor123/commerce-vercel) | E-commerce em **Next.js/TypeScript**, estruturado como monorepo e preparado para integração com diferentes provedores. |
+| [**React WhatsApp Front**](https://github.com/parkluthor123/react-whatsapp-front) | Interface em **React + TypeScript**, com comunicação em tempo real via Socket.IO e consumo de APIs. |
+| [**Jornada de Trabalho**](https://github.com/parkluthor123/jornada-trabalho-front) · [API](https://github.com/parkluthor123/jornada-trabalho-back) | Aplicação full-stack com **React, Material UI, Express, Prisma e TypeScript** para gestão de jornadas. |
+| [**Sistema Embarcadores**](https://github.com/parkluthor123/sistema-embarcadores) | Sistema web em **Laravel/PHP**, com área administrativa, persistência de dados e execução local via Docker/Sail. |
+| [**Projeto Moments**](https://github.com/parkluthor123/projeto-moments-by-park-luthor) | Aplicação em **Angular/TypeScript** para publicação e interação com imagens. |
+
+## Como trabalho
+
+- Transformo requisitos de produto em interfaces e APIs consistentes.
+- Organizo aplicações por responsabilidades, favorecendo manutenção e evolução.
+- Exploro novas ferramentas na prática, criando projetos pequenos e sistemas completos.
+
+## GitHub em números
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=parkluthor123&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Estatísticas do GitHub">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkluthor123&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Linguagens mais utilizadas">
 </div>
-<div style="display: inline-block; width: 100%"><br>
-  <div style="max-width: 880px; width: 100%; margin: 0 auto;">
-    <img alt="snake_commits" align="left" style="border-radius:50px;" src="https://github.com/parkluthor123/parkluthor123/blob/output/github-contribution-grid-snake.svg">
-  </div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=parkluthor123&hide_border=true&theme=transparent" alt="Sequência de contribuições">
+</div>
+
+<div align="center">
+  <sub>Projetos, estudos e experimentos: <a href="https://github.com/parkluthor123?tab=repositories">explore meus repositórios</a>.</sub>
 </div>
