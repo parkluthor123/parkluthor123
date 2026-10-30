@@ -1,0 +1,99 @@
+name: Atualizar estatísticas do GitHub
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Gerar SVGs
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const owner = context.repo.owner;
+            const escape = value => String(value)
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;');
+            const compact = value => new Intl.NumberFormat('pt-BR', {
+              notation: 'compact',
+              maximumFractionDigits: 1
+            }).format(value);
+            const text = (value, x, y, size = 14, color = '#D8E7FF', weight = 400) =>
+              `<text x="${x}" y="${y}" fill="${color}" font-family="Arial, sans-serif" font-size="${size}" font-weight="${weight}">${escape(value)}</text>`;
+            const card = (title, body) => `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="165" viewBox="0 0 495 165">
+              <rect width="494" height="164" rx="8" fill="#07111F" stroke="#243B5A"/>
+              ${text(title, 24, 30, 16, '#00F0FF', 700)}
+              ${body}
+            </svg>`;
+
+            const profile = await github.rest.users.getByUsername({ username: owner });
+            const repositories = await github.paginate(github.rest.repos.listForUser, {
+              username: owner,
+              type: 'owner',
+              per_page: 100,
+              sort: 'updated'
+            });
+            const publicRepositories = repositories.filter(repo => !repo.private);
+            const stars = publicRepositories.reduce((total, repo) => total + repo.stargazers_count, 0);
+            const forks = publicRepositories.reduce((total, repo) => total + repo.forks_count, 0);
+
+            const languageBytes = {};
+            for (const repo of publicRepositories) {
+              const languages = await github.rest.repos.listLanguages({
+                owner: repo.owner.login,
+                repo: repo.name
+              });
+              for (const [language, bytes] of Object.entries(languages.data)) {
+                languageBytes[language] = (languageBytes[language] || 0) + bytes;
+              }
+            }
+            const languages = Object.entries(languageBytes)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 8);
+            const totalBytes = languages.reduce((total, [, bytes]) => total + bytes, 0) || 1;
+            const colors = ['#00F0FF', '#FF2BD6', '#7B61FF', '#52E0A1', '#FFC857', '#FF6B6B', '#8BD3DD', '#B8F2E6'];
+
+            const statRows = [
+              ['Repositórios públicos', publicRepositories.length],
+              ['Estrelas recebidas', stars],
+              ['Seguidores', profile.data.followers],
+              ['Forks', forks]
+            ];
+            const statsBody = statRows.map(([label, value], index) => {
+              const x = index % 2 === 0 ? 24 : 260;
+              const y = 68 + Math.floor(index / 2) * 47;
+              return `${text(compact(value), x, y, 22, '#D8E7FF', 700)}${text(label, x, y + 18, 11, '#8EA7C7')}`;
+            }).join('');
+
+            const bars = languages.map(([language, bytes], index) => {
+              const y = 51 + index * 13;
+              const percent = bytes / totalBytes;
+              const width = Math.max(2, Math.round(percent * 280));
+              return `${text(language, 24, y, 11, '#D8E7FF')}${text(`${(percent * 100).toFixed(1)}%`, 424, y, 11, '#8EA7C7')}` +
+                `<rect x="125" y="${y - 9}" width="280" height="6" rx="3" fill="#182B45"/>` +
+                `<rect x="125" y="${y - 9}" width="${width}" height="6" rx="3" fill="${colors[index]}"/>`;
+            }).join('');
+
+            fs.writeFileSync('assets/github-stats.svg', card('Estatísticas do GitHub', statsBody));
+            fs.writeFileSync('assets/top-langs.svg', card('Linguagens mais utilizadas', bars));
+
+      - name: Publicar alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-langs.svg
+          git diff --cached --quiet || git commit -m "chore: atualizar estatísticas do GitHub"
+          git push
