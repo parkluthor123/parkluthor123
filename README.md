@@ -25,8 +25,8 @@ Desenvolvedor full-stack que transforma ideias em produtos web claros, funcionai
 <br>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=parkluthor123&show_icons=true&hide_border=true&theme=transparent&title_color=00F0FF&icon_color=FF2BD6&text_color=D8E7FF&bg_color=07111F" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkluthor123&layout=compact&hide_border=true&langs_count=8&title_color=00F0FF&text_color=D8E7FF&bg_color=07111F" alt="Linguagens mais utilizadas">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=parkluthor123&show_icons=true&include_all_commits=true&cache_seconds=86400&hide_border=true&theme=transparent&title_color=00F0FF&icon_color=FF2BD6&text_color=D8E7FF&bg_color=07111F" alt="Estatísticas do GitHub">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkluthor123&layout=compact&cache_seconds=86400&hide_border=true&langs_count=8&title_color=00F0FF&text_color=D8E7FF&bg_color=07111F" alt="Linguagens mais utilizadas">
 </div>
 
 <div align="center">
